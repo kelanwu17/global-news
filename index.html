@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>News App</title>
+</head>
+<body>
+    <div class="header">
+        <div class="heading">
+            <h1>NEWS APP<br>
+                <div class="slogan">
+                the #1 News App
+                </div>
+            </h1>
+            
+            
+        </div>
+        <div class="dropdown">
+            <div class="select-descript">
+                Please Select Country:
+            </div>
+            <select name="country" class="select-country">
+                <option value="us" id="country-name">United States</option>
+                <option value="ar" id="country-name">Argentina</option>
+                <option value="at" id="country-name">Austria</option>
+                <option value="au" id="country-name">Australia</option>
+                <option value="be" id="country-name">Belgium</option>
+                <option value="bg" id="country-name">Bulgaria</option>
+                <option value="br" id="country-name">Brazil</option>
+                <option value="ca" id="country-name">Canada</option>
+                <option value="cn" id="country-name">China</option>
+                <option value="co" id="country-name">Columbia</option>
+                <option value="cu" id="country-name">Cuba</option>
+                <option value="cz" id="country-name">Czechia</option>
+                <option value="eg" id="country-name">Egypt</option>
+                <option value="fr" id="country-name">France</option>
+                <option value="de" id="country-name">Germany</option>
+                <option value="gr" id="country-name">Greece</option>
+                <option value="hk" id="country-name">Hong Kong</option>
+                <option value="hu" id="country-name">Hungary</option>
+                <option value="id" id="country-name">Indonesia</option>
+                <option value="ie" id="country-name">Ireland</option>
+                <option value="il" id="country-name">Israel</option>
+                <option value="in" id="country-name">India</option>
+                <option value="it" id="country-name">Italy</option>
+                <option value="jp" id="country-name">Japan</option>
+                <option value="kr" id="country-name">Korea</option>
+                <option value="lt" id="country-name">Lithuania</option>
+                <option value="lv" id="country-name">Latvia</option>
+                <option value="ma" id="country-name">Morocco</option>
+                <option value="mx" id="country-name">Mexico</option>
+                <option value="my" id="country-name">Malaysia</option>
+                <option value="ng" id="country-name">Nigeria</option>
+                <option value="nl" id="country-name">Netherlands</option>
+                <option value="no" id="country-name">Norway</option>
+                <option value="nz" id="country-name">New Zealand</option>
+                <option value="ph" id="country-name">Philippines</option>
+                <option value="pl" id="country-name">Poland</option>
+                <option value="pt" id="country-name">Portugal</option>
+                <option value="ro" id="country-name">Romania</option>
+                <option value="ru" id="country-name">Russia</option>
+                <option value="rs" id="country-name">Serbia</option>
+                <option value="sa" id="country-name">Saudi Arabia</option>
+                <option value="se" id="country-name">Sweden</option>
+                <option value="sg" id="country-name">Singapore</option>
+                <option value="si" id="country-name">Slovenia</option>
+                <option value="sk" id="country-name">Slovakia</option>
+                <option value="ch" id="country-name">Switzerland</option>
+                <option value="th" id="country-name">Thailand</option>
+                <option value="tr" id="country-name">Turkey</option>
+                <option value="tw" id="country-name">Taiwan</option>
+                <option value="ua" id="country-name">Ukraine</option>
+                <option value="ae" id="country-name">United Arab Emirates</option>
+                <option value="gb" id="country-name">United Kingdom</option>
+                <option value="ve" id="country-name">Venezuela</option>
+                <option value="za" id="country-name">South Africa</option>
+            </select>
+            <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M505.04 442.66l-99.71-99.69c-4.5-4.5-10.6-7-17-7h-16.3c27.6-35.3 44-79.69 44-127.99C416.03 93.09 322.92 0 208.02 0S0 93.09 0 207.98s93.11 207.98 208.02 207.98c48.3 0 92.71-16.4 128.01-44v16.3c0 6.4 2.5 12.5 7 17l99.71 99.69c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.59.1-33.99zm-297.02-90.7c-79.54 0-144-64.34-144-143.98 0-79.53 64.35-143.98 144-143.98 79.54 0 144 64.34 144 143.98 0 79.53-64.35 143.98-144 143.98zm.02-239.96c-40.78 0-73.84 33.05-73.84 73.83 0 32.96 48.26 93.05 66.75 114.86a9.24 9.24 0 0 0 14.18 0c18.49-21.81 66.75-81.89 66.75-114.86 0-40.78-33.06-73.83-73.84-73.83zm0 96c-13.26 0-24-10.75-24-24 0-13.26 10.75-24 24-24s24 10.74 24 24c0 13.25-10.75 24-24 24z"></path></svg></button>
+            
+        </div>
+    </div>
+    <div class="container-1">
+        <div class="box">
+            
+            <div class="news-source">
+                <div class="news-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 011.5.5h11A1.5 1.5 0 0114 2v12a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 010 14V2zm1.5-.5A.5.5 0 001 2v12a.5.5 0 00.5.5h11a.5.5 0 00.5-.5V2a.5.5 0 00-.5-.5h-11z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M15.5 3a.5.5 0 01.5.5V14a1.5 1.5 0 01-1.5 1.5h-3v-1h3a.5.5 0 00.5-.5V3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"></path><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"></path></svg></div>
+                <div class="source-name">CNN</div>
+            </div>
+            <div class="news-title">Trump’s election advisers were like ‘snake oil salesmen’, ex-Pence aide says - The Guardian</div>
+            <img src="https://static01.nyt.com/images/2022/02/06/world/06ukraine-macron-01/06ukraine-macron-01-facebookJumbo.jpg">
+            <div class="news-author">
+                <div class="author-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 6.879l-3.879-3.879c-.293-.293-.678-.439-1.061-.439-.384 0-.767.146-1.06.439l-10.939 10.939c-.293.293-.558.727-.75 1.188-.192.463-.311.959-.311 1.373v4.5h4.5c.414 0 .908-.119 1.371-.311.463-.192.896-.457 1.189-.75l10.94-10.939c.293-.293.439-.678.439-1.061 0-.384-.146-.767-.439-1.06zm-15.232 8.182l8.293-8.293 1.232 1.232-8.293 8.293-1.232-1.232zm1.732 3.939h-1.5l-1-1v-1.5c0-.077.033-.305.158-.605.01-.02 2.967 2.938 2.967 2.938-.322.134-.548.167-.625.167zm1.439-.768l-1.232-1.232 8.293-8.293 1.232 1.232-8.293 8.293zm9-9l-3.172-3.172 1.293-1.293 3.17 3.172-1.291 1.293z"></path></svg></div>
+                <div class="author-bar">Written by: <span id="author">Author Name</span></div> 
+            </div>
+            <p class="news-content">Former chief of staff Marc Short joins several senior Republicans to defend the former vice-president in escalating feud with Trump
+            </p>
+            <a href="" class="read-more">Read More</a>
+        </div>
+        <div class="box">
+            
+            <div class="news-source">
+                <div class="news-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 011.5.5h11A1.5 1.5 0 0114 2v12a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 010 14V2zm1.5-.5A.5.5 0 001 2v12a.5.5 0 00.5.5h11a.5.5 0 00.5-.5V2a.5.5 0 00-.5-.5h-11z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M15.5 3a.5.5 0 01.5.5V14a1.5 1.5 0 01-1.5 1.5h-3v-1h3a.5.5 0 00.5-.5V3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"></path><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"></path></svg></div>
+                <div class="source-name">CNN</div>
+            </div>
+            <div class="news-title">Trump’s election advisers were like ‘snake oil salesmen’, ex-Pence aide says - The Guardian</div>
+            <img src="https://static01.nyt.com/images/2022/02/06/world/06ukraine-macron-01/06ukraine-macron-01-facebookJumbo.jpg">
+            <div class="news-author">
+                <div class="author-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 6.879l-3.879-3.879c-.293-.293-.678-.439-1.061-.439-.384 0-.767.146-1.06.439l-10.939 10.939c-.293.293-.558.727-.75 1.188-.192.463-.311.959-.311 1.373v4.5h4.5c.414 0 .908-.119 1.371-.311.463-.192.896-.457 1.189-.75l10.94-10.939c.293-.293.439-.678.439-1.061 0-.384-.146-.767-.439-1.06zm-15.232 8.182l8.293-8.293 1.232 1.232-8.293 8.293-1.232-1.232zm1.732 3.939h-1.5l-1-1v-1.5c0-.077.033-.305.158-.605.01-.02 2.967 2.938 2.967 2.938-.322.134-.548.167-.625.167zm1.439-.768l-1.232-1.232 8.293-8.293 1.232 1.232-8.293 8.293zm9-9l-3.172-3.172 1.293-1.293 3.17 3.172-1.291 1.293z"></path></svg></div>
+                <div class="author-bar">Written by: <span id="author">Author Name</span></div> 
+            </div>
+            <p class="news-content">Former chief of staff Marc Short joins several senior Republicans to defend the former vice-president in escalating feud with Trump
+            </p>
+            <a href="" class="read-more">Read More</a>
+        </div>
+        <div class="box">
+            
+            <div class="news-source">
+                <div class="news-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 011.5.5h11A1.5 1.5 0 0114 2v12a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 010 14V2zm1.5-.5A.5.5 0 001 2v12a.5.5 0 00.5.5h11a.5.5 0 00.5-.5V2a.5.5 0 00-.5-.5h-11z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M15.5 3a.5.5 0 01.5.5V14a1.5 1.5 0 01-1.5 1.5h-3v-1h3a.5.5 0 00.5-.5V3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"></path><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"></path></svg></div>
+                <div class="source-name">CNN</div>
+            </div>
+            <div class="news-title">Trump’s election advisers were like ‘snake oil salesmen’, ex-Pence aide says - The Guardian</div>
+            <img src="https://static01.nyt.com/images/2022/02/06/world/06ukraine-macron-01/06ukraine-macron-01-facebookJumbo.jpg">
+            <div class="news-author">
+                <div class="author-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 6.879l-3.879-3.879c-.293-.293-.678-.439-1.061-.439-.384 0-.767.146-1.06.439l-10.939 10.939c-.293.293-.558.727-.75 1.188-.192.463-.311.959-.311 1.373v4.5h4.5c.414 0 .908-.119 1.371-.311.463-.192.896-.457 1.189-.75l10.94-10.939c.293-.293.439-.678.439-1.061 0-.384-.146-.767-.439-1.06zm-15.232 8.182l8.293-8.293 1.232 1.232-8.293 8.293-1.232-1.232zm1.732 3.939h-1.5l-1-1v-1.5c0-.077.033-.305.158-.605.01-.02 2.967 2.938 2.967 2.938-.322.134-.548.167-.625.167zm1.439-.768l-1.232-1.232 8.293-8.293 1.232 1.232-8.293 8.293zm9-9l-3.172-3.172 1.293-1.293 3.17 3.172-1.291 1.293z"></path></svg></div>
+                <div class="author-bar">Written by: <span id="author">Author Name</span></div> 
+            </div>
+            <p class="news-content">Former chief of staff Marc Short joins several senior Republicans to defend the former vice-president in escalating feud with Trump
+            </p>
+            <a href="" class="read-more">Read More</a>
+        </div>
+        <div class="box">
+            
+            <div class="news-source">
+                <div class="news-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 011.5.5h11A1.5 1.5 0 0114 2v12a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 010 14V2zm1.5-.5A.5.5 0 001 2v12a.5.5 0 00.5.5h11a.5.5 0 00.5-.5V2a.5.5 0 00-.5-.5h-11z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M15.5 3a.5.5 0 01.5.5V14a1.5 1.5 0 01-1.5 1.5h-3v-1h3a.5.5 0 00.5-.5V3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"></path><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"></path></svg></div>
+                <div class="source-name">CNN</div>
+            </div>
+            <div class="news-title">Trump’s election advisers were like ‘snake oil salesmen’, ex-Pence aide says - The Guardian</div>
+            <img src="https://static01.nyt.com/images/2022/02/06/world/06ukraine-macron-01/06ukraine-macron-01-facebookJumbo.jpg">
+            <div class="news-author">
+                <div class="author-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 6.879l-3.879-3.879c-.293-.293-.678-.439-1.061-.439-.384 0-.767.146-1.06.439l-10.939 10.939c-.293.293-.558.727-.75 1.188-.192.463-.311.959-.311 1.373v4.5h4.5c.414 0 .908-.119 1.371-.311.463-.192.896-.457 1.189-.75l10.94-10.939c.293-.293.439-.678.439-1.061 0-.384-.146-.767-.439-1.06zm-15.232 8.182l8.293-8.293 1.232 1.232-8.293 8.293-1.232-1.232zm1.732 3.939h-1.5l-1-1v-1.5c0-.077.033-.305.158-.605.01-.02 2.967 2.938 2.967 2.938-.322.134-.548.167-.625.167zm1.439-.768l-1.232-1.232 8.293-8.293 1.232 1.232-8.293 8.293zm9-9l-3.172-3.172 1.293-1.293 3.17 3.172-1.291 1.293z"></path></svg></div>
+                <div class="author-bar">Written by: <span id="author">Author Name</span></div> 
+            </div>
+            <p class="news-content">Former chief of staff Marc Short joins several senior Republicans to defend the former vice-president in escalating feud with Trump
+            </p>
+            <a href="" class="read-more">Read More</a>
+        </div>
+        <div class="box">
+            
+            <div class="news-source">
+                <div class="news-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 011.5.5h11A1.5 1.5 0 0114 2v12a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 010 14V2zm1.5-.5A.5.5 0 001 2v12a.5.5 0 00.5.5h11a.5.5 0 00.5-.5V2a.5.5 0 00-.5-.5h-11z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M15.5 3a.5.5 0 01.5.5V14a1.5 1.5 0 01-1.5 1.5h-3v-1h3a.5.5 0 00.5-.5V3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"></path><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"></path></svg></div>
+                <div class="source-name">CNN</div>
+            </div>
+            <div class="news-title">Trump’s election advisers were like ‘snake oil salesmen’, ex-Pence aide says - The Guardian</div>
+            <img src="https://static01.nyt.com/images/2022/02/06/world/06ukraine-macron-01/06ukraine-macron-01-facebookJumbo.jpg">
+            <div class="news-author">
+                <div class="author-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 6.879l-3.879-3.879c-.293-.293-.678-.439-1.061-.439-.384 0-.767.146-1.06.439l-10.939 10.939c-.293.293-.558.727-.75 1.188-.192.463-.311.959-.311 1.373v4.5h4.5c.414 0 .908-.119 1.371-.311.463-.192.896-.457 1.189-.75l10.94-10.939c.293-.293.439-.678.439-1.061 0-.384-.146-.767-.439-1.06zm-15.232 8.182l8.293-8.293 1.232 1.232-8.293 8.293-1.232-1.232zm1.732 3.939h-1.5l-1-1v-1.5c0-.077.033-.305.158-.605.01-.02 2.967 2.938 2.967 2.938-.322.134-.548.167-.625.167zm1.439-.768l-1.232-1.232 8.293-8.293 1.232 1.232-8.293 8.293zm9-9l-3.172-3.172 1.293-1.293 3.17 3.172-1.291 1.293z"></path></svg></div>
+                <div class="author-bar">Written by: <span id="author">Author Name</span></div> 
+            </div>
+            <p class="news-content">Former chief of staff Marc Short joins several senior Republicans to defend the former vice-president in escalating feud with Trump
+            </p>
+            <a href="" class="read-more">Read More</a>
+        </div>
+        <div class="box">
+            
+            <div class="news-source">
+                <div class="news-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 011.5.5h11A1.5 1.5 0 0114 2v12a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 010 14V2zm1.5-.5A.5.5 0 001 2v12a.5.5 0 00.5.5h11a.5.5 0 00.5-.5V2a.5.5 0 00-.5-.5h-11z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M15.5 3a.5.5 0 01.5.5V14a1.5 1.5 0 01-1.5 1.5h-3v-1h3a.5.5 0 00.5-.5V3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"></path><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"></path></svg></div>
+                <div class="source-name">CNN</div>
+            </div>
+            <div class="news-title">Trump’s election advisers were like ‘snake oil salesmen’, ex-Pence aide says - The Guardian</div>
+            <img src="https://static01.nyt.com/images/2022/02/06/world/06ukraine-macron-01/06ukraine-macron-01-facebookJumbo.jpg">
+            <div class="news-author">
+                <div class="author-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 6.879l-3.879-3.879c-.293-.293-.678-.439-1.061-.439-.384 0-.767.146-1.06.439l-10.939 10.939c-.293.293-.558.727-.75 1.188-.192.463-.311.959-.311 1.373v4.5h4.5c.414 0 .908-.119 1.371-.311.463-.192.896-.457 1.189-.75l10.94-10.939c.293-.293.439-.678.439-1.061 0-.384-.146-.767-.439-1.06zm-15.232 8.182l8.293-8.293 1.232 1.232-8.293 8.293-1.232-1.232zm1.732 3.939h-1.5l-1-1v-1.5c0-.077.033-.305.158-.605.01-.02 2.967 2.938 2.967 2.938-.322.134-.548.167-.625.167zm1.439-.768l-1.232-1.232 8.293-8.293 1.232 1.232-8.293 8.293zm9-9l-3.172-3.172 1.293-1.293 3.17 3.172-1.291 1.293z"></path></svg></div>
+                <div class="author-bar">Written by: <span id="author">Author Name</span></div> 
+            </div>
+            <p class="news-content">Former chief of staff Marc Short joins several senior Republicans to defend the former vice-president in escalating feud with Trump
+            </p>
+            <a href="" class="read-more">Read More</a>
+        </div>
+        <div class="box">
+            
+            <div class="news-source">
+                <div class="news-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 011.5.5h11A1.5 1.5 0 0114 2v12a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 010 14V2zm1.5-.5A.5.5 0 001 2v12a.5.5 0 00.5.5h11a.5.5 0 00.5-.5V2a.5.5 0 00-.5-.5h-11z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M15.5 3a.5.5 0 01.5.5V14a1.5 1.5 0 01-1.5 1.5h-3v-1h3a.5.5 0 00.5-.5V3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"></path><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"></path></svg></div>
+                <div class="source-name">CNN</div>
+            </div>
+            <div class="news-title">Trump’s election advisers were like ‘snake oil salesmen’, ex-Pence aide says - The Guardian</div>
+            <img src="https://static01.nyt.com/images/2022/02/06/world/06ukraine-macron-01/06ukraine-macron-01-facebookJumbo.jpg">
+            <div class="news-author">
+                <div class="author-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 6.879l-3.879-3.879c-.293-.293-.678-.439-1.061-.439-.384 0-.767.146-1.06.439l-10.939 10.939c-.293.293-.558.727-.75 1.188-.192.463-.311.959-.311 1.373v4.5h4.5c.414 0 .908-.119 1.371-.311.463-.192.896-.457 1.189-.75l10.94-10.939c.293-.293.439-.678.439-1.061 0-.384-.146-.767-.439-1.06zm-15.232 8.182l8.293-8.293 1.232 1.232-8.293 8.293-1.232-1.232zm1.732 3.939h-1.5l-1-1v-1.5c0-.077.033-.305.158-.605.01-.02 2.967 2.938 2.967 2.938-.322.134-.548.167-.625.167zm1.439-.768l-1.232-1.232 8.293-8.293 1.232 1.232-8.293 8.293zm9-9l-3.172-3.172 1.293-1.293 3.17 3.172-1.291 1.293z"></path></svg></div>
+                <div class="author-bar">Written by: <span id="author">Author Name</span></div> 
+            </div>
+            <p class="news-content">Former chief of staff Marc Short joins several senior Republicans to defend the former vice-president in escalating feud with Trump
+            </p>
+            <a href="" class="read-more">Read More</a>
+        </div>
+        <div class="box">
+            
+            <div class="news-source">
+                <div class="news-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 011.5.5h11A1.5 1.5 0 0114 2v12a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 010 14V2zm1.5-.5A.5.5 0 001 2v12a.5.5 0 00.5.5h11a.5.5 0 00.5-.5V2a.5.5 0 00-.5-.5h-11z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M15.5 3a.5.5 0 01.5.5V14a1.5 1.5 0 01-1.5 1.5h-3v-1h3a.5.5 0 00.5-.5V3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"></path><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"></path></svg></div>
+                <div class="source-name">CNN</div>
+            </div>
+            <div class="news-title">Trump’s election advisers were like ‘snake oil salesmen’, ex-Pence aide says - The Guardian</div>
+            <img src="https://static01.nyt.com/images/2022/02/06/world/06ukraine-macron-01/06ukraine-macron-01-facebookJumbo.jpg">
+            <div class="news-author">
+                <div class="author-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 6.879l-3.879-3.879c-.293-.293-.678-.439-1.061-.439-.384 0-.767.146-1.06.439l-10.939 10.939c-.293.293-.558.727-.75 1.188-.192.463-.311.959-.311 1.373v4.5h4.5c.414 0 .908-.119 1.371-.311.463-.192.896-.457 1.189-.75l10.94-10.939c.293-.293.439-.678.439-1.061 0-.384-.146-.767-.439-1.06zm-15.232 8.182l8.293-8.293 1.232 1.232-8.293 8.293-1.232-1.232zm1.732 3.939h-1.5l-1-1v-1.5c0-.077.033-.305.158-.605.01-.02 2.967 2.938 2.967 2.938-.322.134-.548.167-.625.167zm1.439-.768l-1.232-1.232 8.293-8.293 1.232 1.232-8.293 8.293zm9-9l-3.172-3.172 1.293-1.293 3.17 3.172-1.291 1.293z"></path></svg></div>
+                <div class="author-bar">Written by: <span id="author">Author Name</span></div> 
+            </div>
+            <p class="news-content">Former chief of staff Marc Short joins several senior Republicans to defend the former vice-president in escalating feud with Trump
+            </p>
+            <a href="" class="read-more">Read More</a>
+        </div>
+        <div class="box">
+            
+            <div class="news-source">
+                <div class="news-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 011.5.5h11A1.5 1.5 0 0114 2v12a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 010 14V2zm1.5-.5A.5.5 0 001 2v12a.5.5 0 00.5.5h11a.5.5 0 00.5-.5V2a.5.5 0 00-.5-.5h-11z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M15.5 3a.5.5 0 01.5.5V14a1.5 1.5 0 01-1.5 1.5h-3v-1h3a.5.5 0 00.5-.5V3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"></path><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"></path></svg></div>
+                <div class="source-name">CNN</div>
+            </div>
+            <div class="news-title">Trump’s election advisers were like ‘snake oil salesmen’, ex-Pence aide says - The Guardian</div>
+            <img src="https://static01.nyt.com/images/2022/02/06/world/06ukraine-macron-01/06ukraine-macron-01-facebookJumbo.jpg">
+            <div class="news-author">
+                <div class="author-symbol"><svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 6.879l-3.879-3.879c-.293-.293-.678-.439-1.061-.439-.384 0-.767.146-1.06.439l-10.939 10.939c-.293.293-.558.727-.75 1.188-.192.463-.311.959-.311 1.373v4.5h4.5c.414 0 .908-.119 1.371-.311.463-.192.896-.457 1.189-.75l10.94-10.939c.293-.293.439-.678.439-1.061 0-.384-.146-.767-.439-1.06zm-15.232 8.182l8.293-8.293 1.232 1.232-8.293 8.293-1.232-1.232zm1.732 3.939h-1.5l-1-1v-1.5c0-.077.033-.305.158-.605.01-.02 2.967 2.938 2.967 2.938-.322.134-.548.167-.625.167zm1.439-.768l-1.232-1.232 8.293-8.293 1.232 1.232-8.293 8.293zm9-9l-3.172-3.172 1.293-1.293 3.17 3.172-1.291 1.293z"></path></svg></div>
+                <div class="author-bar">Written by: <span id="author">Author Name</span></div> 
+            </div>
+            <p class="news-content">Former chief of staff Marc Short joins several senior Republicans to defend the former vice-president in escalating feud with Trump
+            </p>
+            <a href="" class="read-more">Read More</a>
+        </div>
+        
+
+       
+        
+    </div>
+</body>
+</html>
