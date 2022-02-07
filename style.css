@@ -71,12 +71,26 @@ img {
     padding: 10px 5px;
     
 }
+.dropdown button {
+    padding:10px;
+    border-radius:15px;
+    cursor: pointer;
+    transition:0.2s;
+    margin:1.5em;
+    background-color:white;
+    box-shadow: 5px 5px 1px purple;
+}
+.dropdown button:hover {
+    background-color:purple;
+    color:white;
+}
 #country-name {
     font-size:20px;
+
 }
 .select-country:hover {
-    color:white;
-    background-color:purple;
+    cursor: pointer;
+    transition:0.2s;
 }
 .select-descript{
     padding-right:20px;
@@ -126,6 +140,8 @@ h1 {
     padding: 5px 10px;
     border-radius: 20px;
     border: 1px solid purple;
+    color:black;
+    transition:0.2s;
 }
 .read-more:hover {
     color:white;
@@ -133,7 +149,7 @@ h1 {
 }
 select {
     font-size: 30px;
-    padding: 10px 40px;
+    padding: 10px 20px;
     border: 1px solid purple;
     border-radius: 20px;
     box-shadow: 5px 5px 1px purple;
@@ -145,11 +161,21 @@ select {
     
     overflow: hidden;
 }
-/* .search.button {
-    padding: 15px;
-    border-style: solid;
-    border-radius: 25px;
-    background-color: white;
+.footer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.search.button:hover {background-color: cadetblue;} */
+.return-button {
+    padding:10px 30px;
+    font-size: 30px;
+    text-decoration: none;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius:20px;
+    transition:0.2s;
+    cursor: pointer;
+}
+.return-button:hover {
+    color:white;
+    background-color: purple;
+}
